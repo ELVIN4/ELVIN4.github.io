@@ -1,2 +1,4 @@
-RewriteEngin On
-RewriteRule ^/old_page.php$ / [R=301,L]
+<?php
+header(“Status: 301 Moved Permanently”);
+header(“Location:https://arel.ml/”);
+?>
